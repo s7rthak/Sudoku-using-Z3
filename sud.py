@@ -9,6 +9,8 @@ for line in file:
     li = [c for c in line]
     mat.append(li)
 
+file.close()
+    
 s = Solver()
 
 for i in range(9):
